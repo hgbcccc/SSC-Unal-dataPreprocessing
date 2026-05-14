@@ -11,7 +11,7 @@ This work proposes a spatial-structure-complexity-aware uncertainty alignment st
 | Dataset | Version | Samples | Classes | Annotation Format |
 |---------|---------|---------|---------|-------------------|
 | Spruce-Bark-Beetle | v1.0 | aerial forest images | 5 tree species | VOC XML → COCO |
-| TreeAI | v1.2 | 640×640 RGB patches | 12 → top-10 | YOLO txt → COCO |
+| TreeAI | v1.2 | 640×640 RGB patches | top-10 | YOLO txt → COCO |
 
 ### Active Learning Split
 
