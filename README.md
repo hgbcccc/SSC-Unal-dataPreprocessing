@@ -24,5 +24,27 @@ Each dataset is preprocessed into four subsets:
 | `test` | 10% | Held-out test set |
 | `unlabeled` | 75% | Unlabeled pool (GT retained for AL simulation) |
 
-## Repository Structure
 
+
+
+## Quick Start — Data Preprocessing
+
+See [datasets/Preprocessing/README.md](datasets/Preprocessing/README.md) for the full tutorial.
+
+```bash
+
+# Preprocess Spruce-Bark-Beetle dataset
+cd datasets/Preprocessing
+python preprocess_sbb.py
+
+# Preprocess TreeAI dataset
+python preprocess_treeai.py
+
+# Visualize results
+python visualize_coco_sbb.py \
+  --images-dir "Spruce-Bark-Beetle v1.0/val" \
+  --ann "Spruce-Bark-Beetle v1.0/annotations/val.json" \
+  -n 20 --out vis_sbb_val
+
+# Run statistical analysis
+python analyze_sbb.py
