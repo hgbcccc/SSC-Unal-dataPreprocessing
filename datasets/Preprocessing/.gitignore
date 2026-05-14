@@ -1,0 +1,22 @@
+# Data output directories
+Spruce-Bark-Beetle v1.0/
+TreeAI v1.2/
+processed_sbb_splits/
+processed_treeai_splits/
+
+# Temp & intermediate files
+_tmp_all_images/
+name_map.txt
+_debug_map.txt
+
+# Python cache
+__pycache__/
+
+# Visualization outputs
+vis_*/
+figures/
+
+# Images
+*.jpg
+*.jpeg
+*.png
